@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class Content extends Component {
+class Products extends Component {
   render() {
     return (
       <div className="container">
         <div className="jumbotron">
-          <h1 className="display-3">Hello, world!</h1>
+          <h1 className="display-3">Hello, Products!</h1>
           <p className="lead">
             <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
           </p>
@@ -15,4 +15,4 @@ class Content extends Component {
   }
 }
 
-export default Content;
+export default Products;
